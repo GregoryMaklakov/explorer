@@ -57,10 +57,6 @@
   }
 //================================= General block ======================================================
 
-.page {
-    &__general {
-    }
-}
 .general {
     &__wrapper {
         margin-top: rem(60);
@@ -165,6 +161,13 @@
         @include adaptiveValue("padding-left", 60, 15);
         @include adaptiveValue("padding-right", 60, 15);
         padding-bottom: rem(35);
+        &-last {
+            @media (max-width: em(487)){
+                -webkit-box-shadow: 0px 25px 57px -20px rgba(198, 199, 220, 1);
+                -moz-box-shadow: 0px 25px 57px -20px rgba(198, 199, 220, 1);
+                box-shadow: 0px 25px 57px -20px rgba(198, 199, 220, 1);
+            }
+        }
     }
     &__text {
         font-family: 'Lato';
@@ -172,6 +175,7 @@
         font-size: 18px;
         line-height: 25px;
         color: #333333;
+
     }
     &__link {
         font-family: 'Lato';
