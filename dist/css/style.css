@@ -411,6 +411,13 @@ h6 {
   color: #FFFFFF;
 }
 
+.user-reviews__descr {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
 .user-reviews__text {
   margin-top: 1.25rem;
   font-family: "Montserrat";
