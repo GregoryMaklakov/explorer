@@ -13,4 +13,8 @@ var typed = new Typed('#typed', {
     backSpeed: 10, // Скорость удаления
     showCursor: false, // показивать курсор
     loop: true // Указываем, повторять ли анимацию
-  });
+   
+});
+
+new WOW().init();
+

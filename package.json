@@ -72,7 +72,9 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"animate.css": "^4.1.1",
 		"simplebar": "latest",
-		"typed.js": "^2.0.12"
+		"typed.js": "^2.0.12",
+		"wow.js": "^1.2.2"
 	}
 }
