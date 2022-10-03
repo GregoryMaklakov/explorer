@@ -667,7 +667,6 @@
             showCursor: false,
             loop: true
         });
-        (new WOW).init();
         window["FLS"] = true;
         isWebp();
     })();
