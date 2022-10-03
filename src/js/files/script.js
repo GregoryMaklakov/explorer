@@ -15,6 +15,3 @@ var typed = new Typed('#typed', {
     loop: true // Указываем, повторять ли анимацию
    
 });
-
-new WOW().init();
-
