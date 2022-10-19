@@ -667,6 +667,10 @@
             showCursor: false,
             loop: true
         });
+<<<<<<< HEAD
+=======
+        (new WOW).init();
+>>>>>>> develop
         window["FLS"] = true;
         isWebp();
     })();
